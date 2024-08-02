@@ -1,8 +1,10 @@
+/* Add custom font */
 @font-face {
    font-family: Hongbin;
    src: url(sundayBest.ttf);
 }
 
+/* reset code */
 *{
    margin: 0;
    padding: 0;
@@ -17,7 +19,7 @@ main{
    background-position: center;
    background-repeat: no-repeat;
 }
-
+/* add cover overlay */
 .overlay {
    height: 100%;
    width: 100%;
@@ -29,9 +31,8 @@ h1{
    top: 50%;
    left: 50%;
    transform: translate(-50%,-50%);
-   color: white;
+   color: whi;
 
    font-family: Hongbin;
-   
 
 }
